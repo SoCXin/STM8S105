@@ -3,6 +3,7 @@
 *.ewt
 *.ewd
 out/
+Debug/
 settings/
 *.pyc
 .pio/
