@@ -256,8 +256,7 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state>$PROJ_DIR$\</state>
-                    <state>$PROJ_DIR$\..\..\STM8S_StdPeriph_Driver\inc</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -543,7 +542,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>demo.out</state>
+                    <state>uartr.out</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -607,7 +606,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TOOLKIT_DIR$\config\lnkstm8s103f3.icf</state>
+                    <state>lnk0t.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -671,7 +670,7 @@
                 </option>
                 <option>
                     <name>IlinkProgramEntryLabel</name>
-                    <state>__iar_program_start</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>DoFill</name>
@@ -1604,31 +1603,7 @@
             <data />
         </settings>
     </configuration>
-    <group>
-        <name>StdPeriph_Driver</name>
-        <file>
-            <name>$PROJ_DIR$\..\..\STM8S_StdPeriph_Driver\src\stm8s_clk.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\STM8S_StdPeriph_Driver\src\stm8s_uart1.c</name>
-        </file>
-    </group>
-    <group>
-        <name>user</name>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\STM8S_StdPeriph_Driver\inc\stm8s.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\stm8s_conf.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\stm8s_it.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\stm8s_it.h</name>
-        </file>
-    </group>
+    <file>
+        <name>$PROJ_DIR$\main.c</name>
+    </file>
 </project>
