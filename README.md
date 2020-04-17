@@ -15,13 +15,13 @@
 [STM8S103](https://github.com/sochub/STM8S103)和[STM8S003](https://github.com/sochub/STM8S003)的主要区别是Flash的擦写次数和EEPROM的容量和读写次数
 
 [![sites](docs/STM8S10.png)](https://www.st.com/en/microcontrollers-microprocessors/stm8s103-105.html) 
+[![sites](docs/STM8S103.png)](https://www.st.com/en/microcontrollers-microprocessors/stm8s103-105.html)
 
 * TSSOP20封装
 
 [![sites](docs/TSSOP20.png)](https://www.st.com/en/microcontrollers-microprocessors/stm8s103f3.html) 
-[![sites](docs/STM8S103.png)](https://www.st.com/en/microcontrollers-microprocessors/stm8s103-105.html)
 
-### [收录资源](https://github.com/sochub/STM8S003)
+### [收录资源](https://github.com/sochub/STM8S103)
 
 * [文档](docs/)
 * [资源](src/)
@@ -31,6 +31,7 @@
 * [STM8CubeMX](https://www.st.com/zh/development-tools/stm8cubemx.html)
 * [编译器SDCC](https://github.com/sochub/sdcc)
 * [OS-Q H02](https://github.com/OS-Q/H02)
+* [Arduino](https://github.com/tenbaht/sduino)
 
 ### [选型建议](https://github.com/sochub)
 
